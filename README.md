@@ -8,16 +8,18 @@ This project contains R scripts for analyzing RANK overexpression signatures and
 # Requirements
 ## R Libraries
 Ensure the following R libraries are installed before running the scripts:
-  `install.packages(c("dplyr", "survival", "survminer", "readxl", "tidyr", "pheatmap", "ggplot2"))`
+  ```r
+install.packages(c("dplyr", "survival", "survminer", "readxl", "tidyr", "pheatmap", "ggplot2"))`
 
-Load the libraries:
-    `library(dplyr)
+# Load the libraries:
+    library(dplyr)
     library(survival)
     library(survminer)
     library(readxl)
     library(tidyr)
     library(pheatmap)
-    library(ggplot2)`
+    library(ggplot2)
+```
 
 
 Data Source
